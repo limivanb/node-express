@@ -60,6 +60,8 @@ app.get('/about', (request, response) => {
   });
 });
 
+
+
 app.get('/bad', (request, response) =>{
   response.send({
     errorMessage: 'Bad Page'
